@@ -10,5 +10,5 @@
 
 @interface textModel : NSObject
 @property (nonatomic,assign) int a;
-
+@property (nonatomic,assign) int b;
 @end
