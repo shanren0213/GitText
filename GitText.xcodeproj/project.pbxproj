@@ -101,6 +101,7 @@
 		A70F9C461FAB73F60039276C /* GitText */ = {
 			isa = PBXGroup;
 			children = (
+				A71755011FAC0154005B822A /* textForld */,
 				A70F9C471FAB73F60039276C /* AppDelegate.h */,
 				A70F9C481FAB73F60039276C /* AppDelegate.m */,
 				A70F9C4A1FAB73F60039276C /* ViewController.h */,
@@ -130,6 +131,13 @@
 				A70F9C6D1FAB73F60039276C /* Info.plist */,
 			);
 			path = GitTextUITests;
+			sourceTree = "<group>";
+		};
+		A71755011FAC0154005B822A /* textForld */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = textForld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
