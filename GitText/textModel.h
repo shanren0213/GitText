@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface textModel : NSObject
+@property (nonatomic,assign) int a;
 
 @end
