@@ -20,6 +20,8 @@
     UIView *a = [UIView new];
     [self.view addSubview:a];
     
+    UITextView *textView = [UITextView new];
+    
 }
 
 
