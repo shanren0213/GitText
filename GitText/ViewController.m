@@ -23,7 +23,7 @@
     UITextView *textView = [UITextView new];
     
     //Mille
-    UIImage *image = [[UIImage alloc] init];
+    UIImage *image = nil;
     
 }
 
