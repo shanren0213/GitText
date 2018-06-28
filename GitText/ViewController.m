@@ -24,6 +24,7 @@
     
     //Mille
     UIImage *image = [UIImage new];//修改mille
+    //加mille
     
 }
 
