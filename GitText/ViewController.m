@@ -27,6 +27,7 @@
     
     //添加新功能分支1
     UIView *view = [UIView new];
+    UIImage *image = [UIImage new];//修改mille
     
 }
 
