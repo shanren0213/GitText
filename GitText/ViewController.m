@@ -25,6 +25,9 @@
     //Mille
     UIImage *imageLocal = [[UIImage alloc] initWithContentsOfFile:@"GitHub"];
     
+    //添加新功能分支1
+    UIView *view = [UIView new];
+    
 }
 
 
