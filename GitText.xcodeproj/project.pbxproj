@@ -17,7 +17,6 @@
 		A70F9C6C1FAB73F60039276C /* GitTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F9C6B1FAB73F60039276C /* GitTextUITests.m */; };
 		A71755041FAC0D37005B822A /* textModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A71755031FAC0D37005B822A /* textModel.m */; };
 		A717550A1FAC1479005B822A /* branchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71755091FAC1479005B822A /* branchViewController.m */; };
-		E844782A20E4B7A70002EA78 /* textView.m in Sources */ = {isa = PBXBuildFile; fileRef = E844782920E4B7A70002EA78 /* textView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +57,6 @@
 		A71755031FAC0D37005B822A /* textModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textModel.m; sourceTree = "<group>"; };
 		A71755081FAC1479005B822A /* branchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = branchViewController.h; sourceTree = "<group>"; };
 		A71755091FAC1479005B822A /* branchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = branchViewController.m; sourceTree = "<group>"; };
-		E844782820E4B7A70002EA78 /* textView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textView.h; sourceTree = "<group>"; };
-		E844782920E4B7A70002EA78 /* textView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +114,6 @@
 				A70F9C4B1FAB73F60039276C /* ViewController.m */,
 				A71755021FAC0D37005B822A /* textModel.h */,
 				A71755031FAC0D37005B822A /* textModel.m */,
-				E844782820E4B7A70002EA78 /* textView.h */,
-				E844782920E4B7A70002EA78 /* textView.m */,
 				A71755081FAC1479005B822A /* branchViewController.h */,
 				A71755091FAC1479005B822A /* branchViewController.m */,
 				A70F9C4D1FAB73F60039276C /* Main.storyboard */,
@@ -291,7 +286,6 @@
 				A717550A1FAC1479005B822A /* branchViewController.m in Sources */,
 				A71755041FAC0D37005B822A /* textModel.m in Sources */,
 				A70F9C4C1FAB73F60039276C /* ViewController.m in Sources */,
-				E844782A20E4B7A70002EA78 /* textView.m in Sources */,
 				A70F9C571FAB73F60039276C /* main.m in Sources */,
 				A70F9C491FAB73F60039276C /* AppDelegate.m in Sources */,
 			);
