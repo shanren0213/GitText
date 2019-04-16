@@ -17,6 +17,8 @@
 		A70F9C6C1FAB73F60039276C /* GitTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F9C6B1FAB73F60039276C /* GitTextUITests.m */; };
 		A71755041FAC0D37005B822A /* textModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A71755031FAC0D37005B822A /* textModel.m */; };
 		A717550A1FAC1479005B822A /* branchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71755091FAC1479005B822A /* branchViewController.m */; };
+		CD8487F920E874F900332A84 /* helloSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8487F820E874F900332A84 /* helloSwift.swift */; };
+		CD8487FC20E877D900332A84 /* OCFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8487FB20E877D900332A84 /* OCFileModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		A71755031FAC0D37005B822A /* textModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textModel.m; sourceTree = "<group>"; };
 		A71755081FAC1479005B822A /* branchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = branchViewController.h; sourceTree = "<group>"; };
 		A71755091FAC1479005B822A /* branchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = branchViewController.m; sourceTree = "<group>"; };
+		CD8487F720E874F900332A84 /* GitText-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitText-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD8487F820E874F900332A84 /* helloSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloSwift.swift; sourceTree = "<group>"; };
+		CD8487FA20E877D900332A84 /* OCFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCFileModel.h; sourceTree = "<group>"; };
+		CD8487FB20E877D900332A84 /* OCFileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCFileModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 				A70F9C4B1FAB73F60039276C /* ViewController.m */,
 				A71755021FAC0D37005B822A /* textModel.h */,
 				A71755031FAC0D37005B822A /* textModel.m */,
+				CD8487FA20E877D900332A84 /* OCFileModel.h */,
+				CD8487FB20E877D900332A84 /* OCFileModel.m */,
+				CD8487F820E874F900332A84 /* helloSwift.swift */,
 				A71755081FAC1479005B822A /* branchViewController.h */,
 				A71755091FAC1479005B822A /* branchViewController.m */,
 				A70F9C4D1FAB73F60039276C /* Main.storyboard */,
@@ -121,6 +130,7 @@
 				A70F9C521FAB73F60039276C /* LaunchScreen.storyboard */,
 				A70F9C551FAB73F60039276C /* Info.plist */,
 				A70F9C561FAB73F60039276C /* main.m */,
+				CD8487F720E874F900332A84 /* GitText-Bridging-Header.h */,
 			);
 			path = GitText;
 			sourceTree = "<group>";
@@ -217,6 +227,7 @@
 				TargetAttributes = {
 					A70F9C431FAB73F60039276C = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					A70F9C5B1FAB73F60039276C = {
@@ -284,7 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A717550A1FAC1479005B822A /* branchViewController.m in Sources */,
+				CD8487FC20E877D900332A84 /* OCFileModel.m in Sources */,
 				A71755041FAC0D37005B822A /* textModel.m in Sources */,
+				CD8487F920E874F900332A84 /* helloSwift.swift in Sources */,
 				A70F9C4C1FAB73F60039276C /* ViewController.m in Sources */,
 				A70F9C571FAB73F60039276C /* main.m in Sources */,
 				A70F9C491FAB73F60039276C /* AppDelegate.m in Sources */,
@@ -450,12 +463,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V52EEDUJ2C;
 				INFOPLIST_FILE = GitText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.LexiLiu.GitText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GitText/GitText-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -464,12 +481,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V52EEDUJ2C;
 				INFOPLIST_FILE = GitText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.LexiLiu.GitText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GitText/GitText-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -477,6 +497,7 @@
 		A70F9C741FAB73F60039276C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V52EEDUJ2C;
@@ -492,6 +513,7 @@
 		A70F9C751FAB73F60039276C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V52EEDUJ2C;
@@ -507,6 +529,7 @@
 		A70F9C771FAB73F60039276C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V52EEDUJ2C;
 				INFOPLIST_FILE = GitTextUITests/Info.plist;
@@ -521,6 +544,7 @@
 		A70F9C781FAB73F60039276C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V52EEDUJ2C;
 				INFOPLIST_FILE = GitTextUITests/Info.plist;

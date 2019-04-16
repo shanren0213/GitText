@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GtiText-Swift.h"
 
 @interface ViewController ()
 
@@ -32,6 +33,8 @@
     //添加新功能分支2
     UIColor *color = [UIColor redColor];
     
+    //oc调用swift
+    hello
 }
 
 
