@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "GtiText-Swift.h"
 
 @interface ViewController ()
 
@@ -26,15 +25,9 @@
     //Mille
     UIImage *imageLocal = [[UIImage alloc] initWithContentsOfFile:@"GitHub"];
     
-    //添加新功能分支1
-    UIView *view = [UIView new];
-    UIImage *image = [UIImage new];//修改mille
+    //master添加代码
+    UIView *master = [UIView new];
     
-    //添加新功能分支2
-    UIColor *color = [UIColor redColor];
-    
-    //oc调用swift
-    hello
 }
 
 
